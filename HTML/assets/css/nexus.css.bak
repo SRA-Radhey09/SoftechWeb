@@ -693,11 +693,36 @@ h1.logo-text a {
   border-radius: 0px;
   display: block;
 }
-#hornav ul > li > a:hover,
-#hornav ul > li > span:hover,
-#hornav ul > li > a:active,
-#hornav ul > li > span:active,
+#hornav ul > li > a:hover
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
+#hornav ul > li > span:hover
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
+#hornav ul > li > a:active
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
+#hornav ul > li > span:active
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
 #hornav ul > li > a.current
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
 #hornav ul > li > span.current {
   background: none;
   color: #bc5e43;
