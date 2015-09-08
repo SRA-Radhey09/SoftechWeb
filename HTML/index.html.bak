@@ -26,7 +26,7 @@
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
     </head>
     <body>
         <div id="body_bg">
@@ -49,15 +49,23 @@
                     <div class="clearfix"></div>
                 </div>
                 <!--End Background -->
-                <div class="primary-container">
+              
+				
+				
+				<div class="primary-container">
+				 
+
                     <div id="header" class="container">
                         <div class="row">
                             <!-- Logo -->
-                            <div class="logo">
-                                <a href="index.html" title="">
-                                    <img src="assets/img/logo.png" alt="Logo" />
-                                </a>
-                            </div>
+                           
+							<div class="logo" >
+								<a href="index.html" title="">
+								   <img src="assets/img/logo.png" alt="Logo" width="200px" height="250px" />
+								</a>
+							</div>
+
+
                             <!-- End Logo -->
                             <ul class="social-icons pull-right hidden-xs">
                                 <li class="social-rss">
@@ -75,6 +83,7 @@
                             </ul>
                         </div>
                     </div>
+					
                                         <!-- Top Menu -->
                     <div id="hornav" class="container no-padding">
                         <div class="row">
@@ -245,6 +254,7 @@
                                         <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
                                         <li data-target="#carousel-example" data-slide-to="1"></li>
                                         <li data-target="#carousel-example" data-slide-to="2"></li>
+										<li data-target="#carousel-example" data-slide-to="3"></li>
                                     </ol>
                                     <div class="clearfix"></div>
                                     <!-- End Carousel Indicators -->

@@ -268,11 +268,11 @@ h1.logo-text a {
   color: #ebebeb;
 }
 .color-primary {
-  color: #502A18;
+  color: #bc5e43;
 }
 .color-primary[class^="fa-"]:before,
 .color-primary[class*=" fa-"]:before {
-  color: #502A18;
+  color: #bc5e43;
 }
 .color-red {
   color: #8b2626;
@@ -693,14 +693,39 @@ h1.logo-text a {
   border-radius: 0px;
   display: block;
 }
-#hornav ul > li > a:hover,
-#hornav ul > li > span:hover,
-#hornav ul > li > a:active,
-#hornav ul > li > span:active,
+#hornav ul > li > a:hover
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
+#hornav ul > li > span:hover
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
+#hornav ul > li > a:active
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
+#hornav ul > li > span:active
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
 #hornav ul > li > a.current
+{
+  background: none;
+  color: #bc5e43;
+  font-weight: bold;
+},
 #hornav ul > li > span.current {
   background: none;
-  color: #502A18;
+  color: #bc5e43;
   font-weight: bold;
 }
 /* Dropdown Menu */
@@ -820,7 +845,7 @@ h1.logo-text a {
   display: block;
   padding: 10px 20px;
   outline: none;
-  color: #502A18;
+  color: #bc5e43;
   font-size: 16px;
   font-weight: 300;
 }
@@ -842,7 +867,7 @@ h1.logo-text a {
 }
 .sidebar-nav ul li:hover a,
 .sidebar-nav ul li.active a {
-  color: #502A18;
+  color: #bc5e43;
 }
 .sidebar-nav > li:last-child a {
   border: none;
@@ -1092,7 +1117,7 @@ h6 {
 }
 a {
   text-decoration: none;
-  color: #502A18;
+  color: #bc5e43;
   -webkit-transition: color 0.15s ease-in;
   -moz-transition: color 0.15s ease-in;
   -o-transition: color 0.15s ease-in;
@@ -1599,11 +1624,11 @@ ul.grid li:first-child a {
   color: #b3b3b3;
 }
 .testimonials-bg-primary p {
-  background: #502A18;
+  background: #bc5e43;
   color: #ffffff;
 }
 .testimonials-bg-primary p:after {
-  border-top-color: #502A18;
+  border-top-color: #bc5e43;
 }
 .testimonials-bg-light p {
   background: #ffffff;
@@ -1741,7 +1766,7 @@ ul.grid li:first-child a {
   background: #FFF;
   border-left-color: #EEE;
   border-right-color: #EEE;
-  border-top: 3px solid #502A18;
+  border-top: 3px solid #bc5e43;
   color: #333333;
   outline: none;
 }
@@ -1828,7 +1853,7 @@ ul.grid li:first-child a {
   border-color: #e4bfb4;
 }
 .panel-primary .panel-footer {
-  background: #502A18;
+  background: #bc5e43;
   border-color: #e4bfb4;
   color: #FFFFFF;
 }
@@ -2262,7 +2287,7 @@ ul.social-icons li a:hover {
 /*-----------------------------------------------------------------------------------*/
 .carousel-control {
   background-image: none !important;
-  background: #502A18;
+  background: #bc5e43;
   width: 45px;
   border-radius: 0px;
   font-size: 16px !important;
@@ -2695,7 +2720,7 @@ ul.posts-list li {
   font-size: 55%;
 }
 .person-details-icons {
-  background: #502A18;
+  background: #bc5e43;
   padding: 10px;
   text-align: center;
   margin: 0;
