@@ -26,6 +26,42 @@
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript">
+				$(window).scroll(function () { 
+				//You've scrolled this much:
+				//alert($ (window).scrollTop());
+				 //if
+				// ($ (window).scrollTop()>100)
+				//	{
+				//		$("#myimage").animate(
+					//		{
+					//			height: '150px',
+								width: '125px'
+					//		});
+				//	}
+
+ if($ (window).scrollTop()>=100)
+					{
+						$("#myimage").animate(
+    						{
+								height: '150px',
+								width: '125px'
+							});
+					}	
+				   else
+					{
+						$("#myimage").animate(
+    						{
+								height: '250px',
+								width: '200px'
+							});
+					}	
+
+
+				}
+			);
+		</script>
 
     </head>
     <body>
@@ -60,9 +96,11 @@
                             <!-- Logo -->
                            
 							<div class="logo" >
+								<div id="myDiv"></div>
 								<a href="index.html" title="">
-								   <img src="assets/img/logo.png" alt="Logo" width="200px" height="250px" />
+								   <img id="myimage" src="assets/img/logo.png" alt="Logo" />
 								</a>
+		
 							</div>
 
 

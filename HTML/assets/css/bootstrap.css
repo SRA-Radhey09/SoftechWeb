@@ -4940,7 +4940,12 @@ a.list-group-item-danger.active:focus {
 .panel-group .panel-footer + .panel-collapse .panel-body {
   border-bottom: 1px solid #d8d8d8;
 }
+.panel-default-contact {
+  margin-top: 23px;
+  border-color: #d8d8d8;
+}
 .panel-default {
+  /*margin-top: 23px;*/
   border-color: #d8d8d8;
 }
 .panel-default > .panel-heading {
