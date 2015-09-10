@@ -29,6 +29,7 @@
 		<!-- Google maps-->
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 		<script type="text/javascript">
+
 			function init_map() {
 				var myOptions = {
 					zoom: 15,
@@ -49,6 +50,8 @@
 				infowindow.open(map, marker);
 			}
 			google.maps.event.addDomListener(window, 'load', init_map);
+
+
 		</script>
     </head>
     <body>
@@ -78,7 +81,8 @@
                             <!-- Logo -->
                             <div class="logo">
                                 <a href="index.html" title="">
-                                    <img src="assets/img/logo.png" alt="Logo" />
+                                    <img src="assets/img/logo.png" alt="Logo" width="125px" height="150px"
+									style="margin-left: 5px;"/>
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -176,8 +180,22 @@
                                             </ul>
                                         </li>-->
 										 <li>
-											<a href="#profile.html" class="fa-gears">Services</a>
+											<a href="#profile.html" class="fa-gears">Schemes</a>
+											<ul>
+                                                <li >
+                                                    <a href="#features-testimonials.html">Special Economic Zone (SEZ)</a>
+                                                </li>
+												<li >
+                                                    <a href="#features-testimonials.html">Software technology Park (STP)</a>
+                                                </li>
+												<li >
+                                                    <a href="#features-testimonials.html">Electronic Hardware Technology Park (EHTP)</a>
+                                                </li>
+												<li >
+                                                    <a href="#features-testimonials.html">Export Oriented Units (EOU)</a>
+                                                </li>
 										</li>
+										</ul>
                                         <!-- <li>
                                             <!--  <span class="fa-copy">Services</span>
                                             <ul>
@@ -276,7 +294,7 @@
                                 <!-- Side Column -->
                                 <div class="col-md-4">
                                     <!-- Recent Posts -->
-                                    <div class="panel panel-default">
+                                    <div class="panel panel-default-contact">
                                         <div class="panel-heading">
                                             <h3 class="panel-title">Contact Info</h3>
                                         </div>
