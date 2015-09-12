@@ -7,7 +7,7 @@
     <!--<![endif]-->
     <head>
         <!-- Title -->
-        <title>Enlighten - Professional Bootstrap Template</title>
+        <title>Softech Consultants</title>
         <!-- Meta -->
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="">
@@ -26,6 +26,42 @@
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+		<script type="text/javascript">
+				$(window).scroll(function () { 
+				//You've scrolled this much:
+				//alert($ (window).scrollTop());
+				 //if
+				// ($ (window).scrollTop()>100)
+				//	{
+				//		$("#myimage").animate(
+					//		{
+					//			height: '150px',
+								width: '125px'
+					//		});
+				//	}
+
+ if($ (window).scrollTop()>=100)
+					{
+						$("#myimage").animate(
+    						{
+								height: '150px',
+								width: '125px'
+							});
+					}	
+				   else
+					{
+						$("#myimage").animate(
+    						{
+								height: '250px',
+								width: '200px'
+							});
+					}	
+
+
+				}
+			);
+		</script>
 
     </head>
     <body>
@@ -34,11 +70,11 @@
                 <div class="row margin-top-10 visible-lg">
                     <div class="col-md-6">
                         <p>
-                            <strong>Phone:</strong>&nbsp;1-800-123-4567</p>
+                            <strong>Phone:</strong>&nbsp;00-91-22-2897 21 81</p>
                     </div>
                     <div class="col-md-6 text-right">
                         <p>
-                            <strong>Email:</strong>info@example.com</p>
+                            <strong>Email:</strong>info@stpiconsultants.com</p>
                     </div>
                 </div>
             </div>
@@ -59,10 +95,12 @@
                         <div class="row">
                             <!-- Logo -->
                            
-							<div class="logo" >
+							<div class="logo" style="left: 12px;" >
+								<div id="myDiv"></div>
 								<a href="index.html" title="">
-								   <img src="assets/img/logo.png" alt="Logo" width="200px" height="250px" />
+								   <img id="myimage" src="assets/img/logo.png" alt="Logo" height= "250px" width="200px" />
 								</a>
+		
 							</div>
 
 
@@ -94,7 +132,7 @@
                                             <a href="index.html" class="fa-home">Home</a>
                                         </li>
                                         <li>
-											<a href="#profile.html" class="fa-user" >Profile </a>
+											<a href="pages-about-us.html" class="fa-user" >Profile </a>
 										</li>
                                                <!-- <li class="parent">
                                                     <span>Typography</span>
@@ -162,8 +200,52 @@
                                             </ul>
                                         </li>-->
 										 <li>
-											<a href="#profile.html" class="fa-gears">Services</a>
+											<a href="#profile.html" class="fa-gears">Schemes</a>
+											<ul>
+                                                <li class="parent"><span>Special Economic Zone (SEZ)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="features-typo-basic.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-typo-blockquotes.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+												<li class="parent"><span>Software technology Park (STP)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="features-typo-basic.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-typo-blockquotes.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+												<li class="parent"><span>Electronic Hardware Technology Park (EHTP)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="features-typo-basic.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-typo-blockquotes.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+									
+												<li class="parent"><span>Export Oriented Units (EOU)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="features-typo-basic.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="features-typo-blockquotes.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+									
 										</li>
+										</ul>
                                         <!-- <li>
                                             <!--  <span class="fa-copy">Services</span>
                                             <ul>
@@ -220,7 +302,7 @@
                                             </ul>
                                         </li> -->
 										 <li>
-											<a href="#profile.html" class="fa-font">Feedback</a>
+											<a href="#profile.html" class="fa-weixin">Feedback</a>
 										</li>
                                         <!-- <li>
                                             <span class="fa-font">Blog</span>
@@ -288,19 +370,21 @@
                         </div>
                         <div class="container background-gray-lighter">
                             <div class="row">
-                                <h2 class="animate fadeIn text-center margin-top-50">Welcome to Enlighten</h2>
+                                <h2 class="animate fadeIn text-center margin-top-50">Welcome to Softech</h2>
                                 <hr class="margin-top-15">
-                                <p class="animate fadeIn text-center">Enlighten offers you the canvas to turn your imagination in to a reality
-                                    <br>giving you the perfect framework for your project!</p>
+                                <p class="animate fadeIn text-center"><b>House of One Window Clearance</b></p>
+								<p class="animate fadeIn text-center">Softech Consultants is a group of highly experience professionals</p>
+								<p class="animate fadeIn text-center">in the area of Software technology Park (STP) / Electronic Hardware Technology Park (EHTP),</p>
+								<p class="animate fadeIn text-center">Export Oriented Units (EOU) and Special Economic Zone (SEZ) for the last 23 years.</p>
                                 <p class="text-center animate fadeInUp margin-bottom-50">
-                                    <button type="button" class="btn btn-lg btn-primary">View Details</button>
+                                   <a href="pages-about-us.html"><button type="button" class="btn btn-lg btn-primary">View Details</button></a>
                                 </p>
                             </div>
                         </div>
                         <div class="container">
                             <div class="row margin-vert-30">
                                 <!-- Main Text -->
-                                <div class="col-md-9">
+                                <div class="col-md-8">
                                     <h2>Lorem ipsum dolor</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
                                         lobortis nisl ut aliquip ex ea commodo consequat.</p>
@@ -310,35 +394,35 @@
                                     <img class="visible-lg animate fadeInUp" style="bottom: -50px; position: relative; left: 85px; margin-top: -20px;" src="assets/img/frontpage/responsive_homepage.png" alt="">
                                 </div>
                                 <!-- End Main Text -->
-                                <!-- Side Column -->
-                                <div class="col-md-3">
-                                    <h3 class="title">Opening hours</h3>
-                                    <h6 style="margin: 0;">Mon - Wed</h6>
-                                    <h4 style="margin: 0;">7:00 am - 1:30 pm</h4>
-                                    <p>
-                                        <small>* Lorem ipsum dolor sit amet</small>
-                                    </p>
-                                    <hr>
-                                    <h6 style="margin: 0;">Thursday</h6>
-                                    <h4 style="margin: 0;">7:00 am - 1:30 pm</h4>
-                                    <p>
-                                        <small>* Lorem ipsum dolor sit amet</small>
-                                    </p>
-                                    <hr>
-                                    <h6 style="margin: 0;">Fri-Sat</h6>
-                                    <h4 style="margin: 0;">7:00 am - 1:30 pm</h4>
-                                    <p>
-                                        <small>* Lorem ipsum dolor sit amet</small>
-                                    </p>
-                                    <hr>
-                                    <h6 style="margin: 0;">Suday</h6>
-                                    <h4 style="margin: 0;">CLOSED</h4>
-                                    <p>
-                                        <small>* Lorem ipsum dolor sit amet</small>
-                                    </p>
-                                    <hr>
+								<div class="col-md-4">
+                                    <!-- Recent Posts -->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Contact Info</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                            <p>501, 5th Floor / 703, 7th Floor, 
+											<br/>'GANGA ',Green View Complex ,
+											<br/>SWA. Savarkar Nagar ,
+											<br/>S. D. Road, Borivali ( East ),
+											<br/>Mumbai - 400066, INDIA.</p>
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <i class="fa-phone color-primary"></i>00-91-22-2897 21 81 </li>
+												<li>
+													<i class="fa-mobile color-primary"></i>91-9820150503</li>
+                                                <li>
+                                                    <i class="fa-envelope color-primary"></i>info@stpiconsultants.com </li>
+                                                <li>
+                                                    <i class="fa-home color-primary"></i>http://www.softechconsultants.com</li>
+												
+                                            </ul>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- End recent Posts -->
+                                   
                                 </div>
-                                <!-- End Side Column -->
                             </div>
                         </div>
                         <div class="container background-gray-lighter">
@@ -407,102 +491,7 @@
             <!-- === END CONTENT === -->
             <!-- === BEGIN FOOTER === -->
             <div id="base">
-                <div class="container padding-vert-30 margin-top-40">
-                    <div class="row">
-                        <!-- Sample Menu -->
-                        <div class="col-md-3 margin-bottom-20">
-                            <h3 class="margin-bottom-10">Sample Menu</h3>
-                            <ul class="menu">
-                                <li>
-                                    <a class="fa-tasks" href="#">Placerat facer possim</a>
-                                </li>
-                                <li>
-                                    <a class="fa-users" href="#">Quam nunc putamus</a>
-                                </li>
-                                <li>
-                                    <a class="fa-signal" href="#">Velit esse molestie</a>
-                                </li>
-                                <li>
-                                    <a class="fa-coffee" href="#">Nam liber tempor</a>
-                                </li>
-                            </ul>
-                            <div class="clearfix"></div>
-                        </div>
-                        <!-- End Sample Menu -->
-                        <!-- Contact Details -->
-                        <div class="col-md-3 margin-bottom-20">
-                            <h3 class="margin-bottom-10">Contact Details</h3>
-                            <p>
-                                <span class="fa-phone">Telephone:</span>(212)888-77-88
-                                <br>
-                                <span class="fa-envelope">Email:</span>
-                                <a href="mailto:info@joomla51.com">info@joomla51.com</a>
-                                <br>
-                                <span class="fa-link">Website:</span>
-                                <a href="http://www.joomla51.com">www.joomla51.com</a>
-                            </p>
-                            <p>The Dunes, Top Road,
-                                <br>Strandhill,
-                                <br>Co. Sligo,
-                                <br>Ireland</p>
-                        </div>
-                        <!-- End Contact Details -->
-                        <!-- Thumbs Gallery -->
-                        <div class="col-md-3 margin-bottom-20">
-                            <h3 class="margin-bottom-10">Portfolio Highlights</h3>
-                            <div class="thumbs-gallery">
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image01.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image01.jpg" alt="image1.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image02.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image02.jpg" alt="image2.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image03.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image03.jpg" alt="image3.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image04.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image04.jpg" alt="image4.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image04.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image05.jpg" alt="image5.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image06.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image06.jpg" alt="image6.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image07.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image07.jpg" alt="image7.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image08.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image08.jpg" alt="image8.jpg">
-                                    <i></i>
-                                </a>
-                                <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image09.jpg">
-                                    <img src="assets/img/thumbsgallery/thumbs/image09.jpg" alt="image9.jpg">
-                                    <i></i>
-                                </a>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <!-- End Thumbs Gallery -->
-                        <!-- Disclaimer -->
-                        <div class="col-md-3 margin-bottom-20">
-                            <h3 class="margin-bottom-10">Disclaimer</h3>
-                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-                                augue duis dolore te feugait nulla facilisi.</p>
-                            <div class="clearfix"></div>
-                        </div>
-                        <!-- End Disclaimer -->
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
+                
             <!-- Footer Menu -->
             <div id="footer">
                 <div class="container">
