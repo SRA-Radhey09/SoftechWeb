@@ -1,0 +1,303 @@
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>Softech SEZ Consultants</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+
+        <!-- Google Fonts-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+		<!-- JS -->
+            <script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/scripts.js"></script>
+            <!-- Isotope - Portfolio Sorting -->
+            <script type="text/javascript" src="assets/js/jquery.isotope.js" type="text/javascript"></script>
+            <!-- Mobile Menu - Slicknav -->
+            <script type="text/javascript" src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
+            <!-- Animate on Scroll-->
+            <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+            <!-- Sticky Div -->
+            <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+            <!-- Slimbox2-->
+            <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+            <!-- Modernizr -->
+            <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+            <!-- End JS -->
+    </head>
+    <body>
+        <div id="body_bg">
+            <div id="pre_header" class="container">
+                <div class="row margin-top-10 visible-lg">
+                    <div class="row margin-top-10 visible-lg">
+                    <div class="col-md-6">
+                        <p>
+                            <strong>Phone:</strong>&nbsp;00-91-22-2897 21 81</p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <p>
+                            <strong>Email:</strong>info@stpiconsultants.com</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="primary-container-group">
+                <!-- Background -->
+                <div class="primary-container-background">
+                    <div class="primary-container"></div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--End Background -->
+                <div class="primary-container">
+                    <div id="header" class="container">
+                        <div class="row">
+                            <!-- Logo -->
+                            <div class="logo" style="left: 12px;">
+                                <a href="index.html" title="">
+                                     <img id="myimage" src="assets/img/logo.png" alt="Logo" height= "100px" width="200px" />
+                                </a>
+                            </div>
+                            <!-- End Logo -->
+                            <ul class="social-icons pull-right hidden-xs">
+                                
+                                <li class="social-twitter">
+                                    <a href="https://twitter.com/SezConsultants" target="_blank" title="Twitter"></a>
+                                </li>
+                                <li class="social-facebook">
+                                    <a href="https://www.facebook.com/softechsezconsultants" target="_blank" title="Facebook"></a>
+                                </li>
+                                <li class="social-linkedin">
+                                    <a href="https://www.linkedin.com/company/softech-sez-consultants" target="_blank" title="Linkedin"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+					
+                                        <!-- Top Menu -->
+                    <div id="hornav" class="container no-padding">
+                        <div class="row">
+                            <div class="col-md-12 no-padding">
+                                <div class="pull-right visible-lg">
+                                    <ul id="hornavmenu" class="nav navbar-nav">
+                                        <li>
+                                            <a href="index.html" class="fa-home">Home</a>
+                                        </li>
+                                        <li>
+											<a href="pages-about-us.html" class="fa-user" >Profile </a>
+										</li>
+                                               
+										 <li>
+											<a href="#profile.html" class="fa-gears">Schemes</a>
+											<ul>
+                                                <li class="parent"><span>Special Economic Zone (SEZ)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="sezOverview.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="sezBenefits.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+												<li class="parent"><span>Software technology Park (STP)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="#features-typo-basic.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#features-typo-blockquotes.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+												<li class="parent"><span>Electronic Hardware Technology Park (EHTP)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="#features-typo-basic.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#features-typo-blockquotes.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+									
+												<li class="parent"><span>Export Oriented Units (EOU)</span>
+												<ul>
+                                                        <li>
+                                                            <a href="#features-typo-basic.html">Overview</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#features-typo-blockquotes.html">Benefits</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+									
+										</li>
+										</ul>
+                                        
+										 <li>
+											<a href="clients.html" class="fa-th">Clients</a>
+										</li>
+                                        
+										 <li>
+											<a href="#profile.html" class="fa-weixin">Feedback</a>
+										</li>
+                                        
+                                        <li>
+                                            <a href="contact.html" class="fa-book">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Top Menu -->
+                    <!-- === END HEADER === -->
+                    <!-- === BEGIN CONTENT === -->
+                    <div id="content">
+                        <div class="container">
+						<div>
+							<marquee><b>STARTED IN 1993 | 23 YEARS OF EXPERIENCE | ONE WINDOW CLEARANCE OF ALL SETUPS</b></marquee></div>
+                            <div class="row margin-vert-30">
+                                <div class="col-md-12" style="top: 15px;right: 13px;">
+                                    <h2 class="margin-vert-20">Company Profile</h2>
+                                    <div class="row margin-bottom-30">
+                                        <div class="col-md-8 animate fadeInLeft">
+                                            <p><b>Softech Consultants</b> provides advisory services in all products/Projects setups, unit setups under SEZ, STPI, EHTP & EOU, and all other liaison with Govt. authorities. Our Estd. is 1993 and have overall experience of 23 years.</p>
+										<p>We are consultants for Custom / Central Excise related matters of SEZ, STPI, EHTP & 100% EOU Scheme registration . We undertake liaison, Representation and other legal formalities.</p>
+<p>
+We also have excellent expertise in setting up Projects & providing various services related to duty free imports and other duty exemption day-to-day regulatory matters.
+</p>
+<p>
+Our Knowledge & experience has been helpful to all our clients, who are very much happy & satisfied with our consultancy services & it has helped them to reduce their cost of product and to save valuable time. Once they appoint us they need not appoint any other agency separately for the SEZ/STP/EHTP/EOU formalities including administrative services as we provide one window clearance facility.
+
+</p>
+                                            <p class="margin-bottom-30">We also undertake the clearing forwarding facilities under one roof, which clears your import cargo and delivers it to your unit / factory safely.</p>
+                                        </div>
+                                        <div class="col-md-4 animate fadeIn" style="right: 20px;">
+                                            
+                                           
+                                             
+                                                    <img src="assets/img/theteam/company-profile.jpg" alt="image3" style="height: 125px;">
+                                                   <img src="assets/img/theteam/boardroom.jpg" alt="image3" style="    height: 225px;">
+                                         
+                                            <!-- //Portfolio Item// -->
+                                        </div>
+                                    </div>
+                                    <hr class="margin-bottom-5">
+									  <h2 class="margin-vert-20"><!--Proprietors Profile-->Expert's Talk</h2>
+                                    <div class="row">
+										
+                                        <div class="col-md-3 animate fadeIn">
+											<img src="assets/img/theteam/Lalit_gore_colored.jpg" alt="image3">
+											<h3 class="margin-vert-10"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lalit Gore</b></h3><br/>
+
+
+                                            
+                                        </div>
+                                        <div class="col-md-9 animate fadeInRight">
+                                            <p>I have total <b>Twenty seven years of experience</b> on managerial level including Twenty Three years in the business as a Consultant, expertise especially in setting up SEZ / 100% EOU / STP / EHTP, and Customs, Central Excise, Government liaison for various licences, Imports & Exports of  100% E.O.U., Development Commissioner's office, guidelines in Routine Store functions, Accounts functions, handling Excise / Custom audit and its documentation.</p>
+											<p>My knowledge & experience has been very helpful to the companies, who are very much happy & satisfied with our Consultancy services & it has helped them to reduce their non-productive expenses and to save time.
+											</p>
+											<p>
+											I also have expertise to give guidelines for doing online submissions of all forms, procedures, returns, A to Z departmental stores in setting up all the Projects of the SEZ/STP/EHTP/100%EOU formalities as SOFTECH SEZ Consultants has one window clearance facility.
+											</p>
+											<p>During this working tenure, we have recommeded amendments to FTP, made to implement some non-implemented procedures to their respective authorities</p>
+										</div>
+                                           
+                                           
+                                            <!-- End Progress Bars -->
+                                        </div>
+										  <hr class="margin-bottom-5"><br/>
+                                    </div>
+                                    <hr class="margin-vert-40">
+									  <h2 class="margin-vert-20">Key Achivements</h2>
+                                    <div class="row">
+										
+                                        <div class="col-md-9 animate fadeInLeft margin-top-20">
+<<<<<<< HEAD
+										
+										<p>"Foreign leasing", provision was not made prior to December 1996 in the chapter 9 of FTP, it was suggested by me & thereafter necessary amendments Made as domestic / foreign in FTP in January 1997. Printed in FTP April - 1997-2002.  
+<b>Saved India's Foreign Exchange Outgoing by making this amendment</b></p>
+											<p>Suggested Public notice in 1993 to Mumbai Custom Commissioner for implementation of Sub-contracting/job-work of 100% EOU in Feb - 1993 after follow up made it available on 24th June 1993.<b>Saved Excise duty on sub-contracting.</b></p>
+											<p>
+											Suggested & made implementation of de-bonding on assessable value of 100% EOU/STPI capital goods in June 2010, FOB basis duty calculation practice was going on depreciation in Mumbai Custom. <b>Saved exportor's revenue loss</b></p>
+=======
+										<img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">
+												&nbsp;&nbsp;<b>"Foreign leasing"</b>, provision was not in the FTP, suggested & Made amendments in FTP in January 1997. Printed in FTP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1997-2002.
+										<p><img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">
+										
+											&nbsp;&nbsp;Suggested implementation of <b>Sub-contracting/job-work of 100% EOU in 1993.</b>
+											</p>
+											<p><img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">
+											&nbsp;&nbsp;Suggested & made implementation of <b>de-bonding on assessable value of 100% EOU/STPI capital goods</b>, FOB practice &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;was going on.. depreciation</b>
+											</p>
+>>>>>>> origin/Sandy
+											
+
+
+                                            
+                                        </div>
+                                        <div class="col-md-3 animate fadeIn" style="right: 40px;">
+                                            <img src="assets/img/theteam/Achivements.jpg" alt="image3" style="width:
+											275px;height: 275px;">
+						
+										</div>
+                                            
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- === END CONTENT === -->
+            <!-- === BEGIN FOOTER === -->
+            <div id="base">
+                
+            <!-- Footer Menu -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div id="copyright" class="col-md-4">
+                            <p>Copyright &#169; 2015. All Rights Reserved</p>
+                        </div>
+                        <div id="footermenu" class="col-md-8">
+                            <ul class="list-unstyled list-inline pull-right">
+                                
+                                <li>
+                                    <a href="#" target="_blank">Disclaimer</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer Menu -->
+            </div>
+    </body>
+</html>
+<!-- === END FOOTER === -->
+            
+    </body>
+</html>
+<!-- === END FOOTER === -->
