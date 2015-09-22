@@ -43,6 +43,10 @@ body {
   background-color: #F4F1EA;
   color: #656565;
 }
+body#home a#homenav{
+color:#502A18;
+font-weight: bold;
+}
 #body_bg {
   background-attachment: fixed;
   background-clip: border-box;
@@ -696,7 +700,7 @@ h1.logo-text a {
 #hornav ul > li > a:hover,
 #hornav ul > li > span:hover,
 #hornav ul > li > a:active,
-#hornav ul > li > span:active,
+#hornav ul > li > span:active ,
 #hornav ul > li > a.current
 #hornav ul > li > span.current {
   background: none;
