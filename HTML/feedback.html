@@ -6,10 +6,53 @@
 <html lang="en">
     <!--<![endif]-->
     <head>
+        <script type="text/javascript">
+
+            function validateForm() {
+                if (document.forms["feedback"]["txtname"].value == '') {
+                    alert("Please enter your name.");
+                    return false;
+                }
+
+
+                if (document.forms["feedback"]["txtCompany"].value == '') {
+                    alert("Please enter company name.");
+                    return false;
+                }
+
+                if (document.forms["feedback"]["txtaddress"].value == '') {
+                    alert("Please enter address.");
+                    return false;
+                }
+
+                if (document.forms["feedback"]["txtcountry"].value == '') {
+                    alert("Please enter Country.");
+                    return false;
+                }
+
+
+                if (document.forms["feedback"]["txttel"].value == '') {
+                    alert("Please enter telephone number.");
+                    return false;
+                }
+
+
+                if (document.forms["feedback"]["txtemail"].value == '') {
+                    alert("Please enter Email id.");
+                    return false;
+                }
+            }
+            
+
+
+
+
+
+        </script>
         <!-- Title -->
         <title>Softech SEZ Consultants</title>
         <!-- Meta -->
-      <META name="keywords" content="sez consultants in india, sez registration consultants, Special Economic Zone (SEZ), sez scheme advisors from mumbai india, sez scheme consultancy, special economic zone registration, sez consultants in Pune,sez scheme consultants in Pune,sez registration consultancy in Pune,sez registration consultants in Pune,sez consultants in Banglore,sez scheme consultants in Banglore,sez registration consultancy in Banglore,sez registration consultants in Banglore,sez consultants in Chennai,sez scheme consultants in Chennai,sez registration consultancy in Chennai,sez registration consultants in Chennai,sez consultants in Dehli,sez scheme consultants in Dehli,sez registration consultancy in Dehli,sez registration consultants in Dehli,sez consultants in Kolkata,sez scheme consultants in Kolkata,sez registration consultancy in Kolkata,sez registration consultants in Kolkata,sez consultants in Gujrat,sez scheme consultants in Gujrat,sez registration consultancy in Gujrat,sez consultants in Kerla,sez scheme consultants in Kerla,sez registration consultancy in Kerla,sez registration consultants in Kerla,sez consultants in Hydrabad,sez scheme consultants in Hydrabad,sez registration consultancy in Hydrabad,sez registration consultants in Hydrabad,SEZ scheme consultancy in india, consultants for 100% eou scheme in india, Export Oriented Units (EOU), sez registration consultants in india, Electronic Hardware Technology Park (EHTP), sez consultants in india, SEZ consultants in india, Software technology Park (STP), special economic zone registration SEZ, consultants for sez scheme, developer consultants in sez scheme, sez scheme consultants, Special Economic Zone (SEZ), Electronic Hardware Technology Park (EHTP), consultants for sez in india, consultants in sez scheme, sez scheme consultants in india, Sez consultants, sez consultants, eou consultants, Special Economic Zone (SEZ), stpi consultant, export oriented units (EOU). Software technology Park (STP), Electronic Hardware Technology Park (EHTP), special economic zone registration SEZ, developer, sez consultants in india, Software technology Park (STP), eou scheme, sez Scheme consultants, Export Oriented Units (EOU), sez registration consultants, custom bonded warehouse consultants, consultants for custom bonded warehouse">
+	 <META name="keywords" content="sez consultants in india, sez registration consultants, Special Economic Zone (SEZ), sez scheme advisors from mumbai india, sez scheme consultancy, special economic zone registration, sez consultants in Pune,sez scheme consultants in Pune,sez registration consultancy in Pune,sez registration consultants in Pune,sez consultants in Banglore,sez scheme consultants in Banglore,sez registration consultancy in Banglore,sez registration consultants in Banglore,sez consultants in Chennai,sez scheme consultants in Chennai,sez registration consultancy in Chennai,sez registration consultants in Chennai,sez consultants in Dehli,sez scheme consultants in Dehli,sez registration consultancy in Dehli,sez registration consultants in Dehli,sez consultants in Kolkata,sez scheme consultants in Kolkata,sez registration consultancy in Kolkata,sez registration consultants in Kolkata,sez consultants in Gujrat,sez scheme consultants in Gujrat,sez registration consultancy in Gujrat,sez consultants in Kerla,sez scheme consultants in Kerla,sez registration consultancy in Kerla,sez registration consultants in Kerla,sez consultants in Hydrabad,sez scheme consultants in Hydrabad,sez registration consultancy in Hydrabad,sez registration consultants in Hydrabad,SEZ scheme consultancy in india, consultants for 100% eou scheme in india, Export Oriented Units (EOU), sez registration consultants in india, Electronic Hardware Technology Park (EHTP), sez consultants in india, SEZ consultants in india, Software technology Park (STP), special economic zone registration SEZ, consultants for sez scheme, developer consultants in sez scheme, sez scheme consultants, Special Economic Zone (SEZ), Electronic Hardware Technology Park (EHTP), consultants for sez in india, consultants in sez scheme, sez scheme consultants in india, Sez consultants, sez consultants, eou consultants, Special Economic Zone (SEZ), stpi consultant, export oriented units (EOU). Software technology Park (STP), Electronic Hardware Technology Park (EHTP), special economic zone registration SEZ, developer, sez consultants in india, Software technology Park (STP), eou scheme, sez Scheme consultants, Export Oriented Units (EOU), sez registration consultants, custom bonded warehouse consultants, consultants for custom bonded warehouse">
 
 <META name="description" content="sez consultants, 100% EOU scheme, foregin trade policy (FTP), sez 
 
@@ -49,7 +92,7 @@ registration consultants, sez scheme">
         <div id="body_bg">
             <div id="pre_header" class="container">
                 <div class="row margin-top-10 visible-lg">
-                   <div class="col-md-6">
+                    <div class="col-md-6">
                         <p>
                             <strong>Phone:</strong>&nbsp;<a href="#">00-91-22-2897 21 81</a></p>
                     </div>
@@ -70,10 +113,10 @@ registration consultants, sez scheme">
                 <div class="primary-container">
                     <div id="header" class="container">
                         <div class="row">
-                            <!-- Logo -->
+                             <!-- Logo -->
                             <div class="logo" style="left: 12px;">
                                 <a href="index.html" title="">
-                                     <img id="myimage" src="assets/img/logo.png" alt="Logo" height= "100px" width="200px" />
+                                    <img src="assets/img/logo.png" alt="Logo" width="200px" height="100px"/>
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -93,7 +136,7 @@ registration consultants, sez scheme">
                     </div>
 					
                                         <!-- Top Menu -->
-                    <div id="hornav" class="container no-padding">
+                                 <div id="hornav" class="container no-padding">
                         <div class="row">
                             <div class="col-md-12 no-padding">
                                 <div class="pull-right visible-lg">
@@ -102,7 +145,7 @@ registration consultants, sez scheme">
                                             <a href="index.html" class="fa-home">Home</a>
                                         </li>
                                         <li>
-											<a href="pages-about-us.html" id="homenav" class="fa-user" >Profile </a>
+											<a href="pages-about-us.html" class="fa-user" >Profile </a>
 										</li>
                                                
 										 <li>
@@ -154,7 +197,7 @@ registration consultants, sez scheme">
 										</ul>
                                         
 										 <li>
-											<a href="clients.html" class="fa-th">Clients</a>
+											<a href="clients.html" id="homenav" class="fa-th">Clients</a>
 										</li>
                                         
 										 <li>
@@ -182,90 +225,145 @@ registration consultants, sez scheme">
 							<marquee><b>STARTED IN 1993 | 23 YEARS OF EXPERIENCE | ONE WINDOW CLEARANCE OF ALL SETUPS | This is BETA version, shortly we will be hitting with all features of this website.</b></marquee></div>
                             <div class="row margin-vert-30">
                                 <div class="col-md-12" style="top: 15px;right: 13px;">
-                                    <h2 class="margin-vert-20">Company Profile</h2>
-                                    <div class="row margin-bottom-30">
-                                        <div class="col-md-8 animate fadeInLeft">
-                                            <p><b>Softech SEZ Consultants</b> provides advisory services in all products/Projects setups, unit setups under SEZ, STPI, EHTP & EOU, and all other liaison with Govt. authorities. Our Estd. is 1993 and have overall experience of 23 years.</p>
-										<p>We are consultants for Custom / Central Excise related matters of SEZ, STPI, EHTP & 100% EOU Scheme registration . We undertake liaison, Representation and other legal formalities.</p>
-<p>
-We also have excellent expertise in setting up Projects & providing various services related to duty free imports and other duty exemption day-to-day regulatory matters.
-</p>
-<p>
-Our Knowledge & experience has been helpful to all our clients, who are very much happy & satisfied with our consultancy services & it has helped them to reduce their cost of product and to save valuable time. Once they appoint us they need not appoint any other agency separately for the SEZ/STP/EHTP/EOU formalities including administrative services as we provide one window clearance facility.
+                                  <TABLE WIDTH=771 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center">
 
-</p>
-                                            <p class="margin-bottom-30">We also undertake the clearing forwarding facilities under one roof, which clears your import cargo and delivers it to your unit / factory safely.</p>
-                                        </div>
-                                        <div class="col-md-4 animate fadeIn" style="right: 20px;">
-                                            
-                                           
-                                             
-                                                    <img src="assets/img/theteam/company-profile.jpg" alt="image3" style="height: 125px;">
-                                                   <img src="assets/img/theteam/boardroom.jpg" alt="image3" style="    height: 225px;">
+
+
+  <TR> 
+   
+    <TD COLSPAN=4 valign="top" height="851"> 
+      <table width="609" border="0">
+        <tr> 
+          <td height="36"> 
+            <div align="center"><img src="assets/img/feedback.gif" width="142" height="30"></div>
+          </td>
+        </tr>
+        <tr> 
+          <td valign="top"> 
+            <div align="left"> <font face="Arial, Helvetica, sans-serif" size="2" color="#FFFFFF">
+         
+
+
+<FORM METHOD=POST name="feedback"  onsubmit="return validateForm()" ACTION="http://www.stpiconsultants.com/cgi-stpiconsultants/formmail.cgi">
+<input type=hidden name="recipient" value="info@stpiconsultants.com">
+<input type=hidden name="subject" value="Order">
+<input type=hidden name="return_link_url" value="http://sezconsultants.com/">
+<input type=hidden name="return_link_title" value="Back to Main Page">
+
+
+                <table width="70%" border='0' cellspacing='2' cellpadding='2' align='center'>
+                  <tr> 
+                    <td width="42%" valign='center'><b><font face="Arial, Helvetica, sans-serif" size='2' color='#000000'>Contact 
+                      Person </font></b></td>
+                    <td width="58%" valign='center'> <font color="#000000"> 
+                      <input name='txtname' size="20" >
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" valign='center' height='21'><b><font face="Arial, Helvetica, sans-serif" size='2' color='#000000'>Company 
+                      Name </font></b></td>
+                    <td width="58%" height='21' valign='center'> <font color="#000000"> 
+                      <input name='txtCompany' size="20" >
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" valign='center' height='57'><b><font face="Arial, Helvetica, sans-serif" size='2' color='#000000'>Address</font></b></td>
+                    <td width="58%" height='57' valign='center'> <font color="#000000"> 
+                      <TEXTAREA cols=25 name=txtaddress rows=3></TEXTAREA>
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" valign='center' height='13'><font face="Arial, Helvetica, sans-serif" size="2"><b><font color="#000000">Country 
+                      </font></b></font></td>
+                    <td width="58%" height='13' valign='center'> <font color="#000000"> 
+                      <input type="text" name="txtcountry" size="20">
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" valign='center' height='13'><b><font face="Arial, Helvetica, sans-serif" size='2' color='#000000'>Telphone 
+                      No</font></b></td>
+                    <td width="58%" height='13' valign='center'> <font color="#000000"> 
+                      <input name='txttel' size="20" >
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" valign='center' height='22'><b><font face="Arial, Helvetica, sans-serif" size='2' color='#000000'>Fax 
+                      No</font></b></td>
+                    <td width="58%" height='22' valign='center'> <font color="#000000"> 
+                      <input name='txtfax' size="20" >
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" valign='center' height='2'><b><font face="Arial, Helvetica, sans-serif" size='2' color='#000000'>Email 
+                      </font></b></td>
+                    <td width="58%" height='2' valign='center'> <font color="#000000"> 
+                      <input name='txtemail' size="20" >
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" height='2'><font face="Arial, Helvetica, sans-serif" size="2" color="#000000"><b>Inquiry 
+                      Detail</b></font></td>
+                    <td width="58%" height='2'> <font color="#000000"> 
+                      <textarea name=txtdetail cols="25" rows="2"></textarea>
+                      </font></td>
+                  </tr>
+                  <tr> 
+                    <td width="42%" valign='bottom' height='2'> <div align='right'> 
+                        <font color="#000000"> 
+                        <input type='submit' name='Submit' value='Submit'>
+                        </font></div></td>
+                    <td width="58%" height='2'> <font color="#000000"> 
+                      <input type='reset' name='Reset' value='Reset'>
+                      </font></td>
+                  </tr>
+                </table>
+                <br>
+              </form>
+              </font>
+<p>&nbsp;</p>
+           
+              <br>
+            
+              
+            </div>
+            <div align="right"></div>
+          </td>
+        </tr>
+      </table>
+    </TD>
+  </TR>
+</TABLE>
                                          
-                                            <!-- //Portfolio Item// -->
-                                        </div>
-                                    </div>
-                                    <hr class="margin-bottom-5">
-									  <h2 class="margin-vert-20"><!--Proprietors Profile-->Expert's Talk</h2>
-                                    <div class="row">
-										
-                                        <div class="col-md-3 animate fadeIn">
-											<img src="assets/img/theteam/Lalit_gore_colored.jpg" alt="image3">
-											<h3 class="margin-vert-10"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lalit Gore</b></h3><br/>
-
-
-                                            
-                                        </div>
-                                        <div class="col-md-9 animate fadeInRight">
-                                            <p>I have total <b>Twenty seven years of experience</b> on managerial level including Twenty Three years in the business as a Consultant, expertise especially in setting up SEZ / 100% EOU / STP / EHTP, and Customs, Central Excise, Government liaison for various licences, Imports & Exports of  100% E.O.U., Development Commissioner's office, guidelines in Routine Store functions, Accounts functions, handling Excise / Custom audit and its documentation.</p>
-											<p>My knowledge & experience has been very helpful to the companies, who are very much happy & satisfied with our Consultancy services & it has helped them to reduce their non-productive expenses and to save time.
-											</p>
-											<p>
-											I also have expertise to give guidelines for doing online submissions of all forms, procedures, returns, A to Z departmental stores in setting up all the Projects of the SEZ/STP/EHTP/100%EOU formalities as SOFTECH SEZ Consultants has one window clearance facility.
-											</p>
-											<p>During this working tenure, we have recommeded amendments to FTP, made to implement some non-implemented procedures to their respective authorities</p>
+                                         
+                                         
 										</div>
-                                           
-                                           
                                             <!-- End Progress Bars -->
                                         </div>
 										  <hr class="margin-bottom-5"><br/>
                                     </div>
                                     <hr class="margin-vert-40">
-									  <h2 class="margin-vert-20">Key Achivements</h2>
+									  <!--<h2 class="margin-vert-20">Achivements</h2>
                                     <div class="row">
 										
-                                        <div class="col-md-9 animate fadeInLeft margin-top-20">
-										
-										<p><img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">&nbsp;&nbsp;"Foreign leasing", provision was not made prior to December 1996 in the FTP, it was suggested by me & thereafter necessary amendments made in FTP with proper official procedure of Ministry of Commerce & Industry & CBEC in January 1997. Printed in FTP April - 1997-2002. <b>SAVED FOREIGN EXCHANGE OUTGOING OF THE COUNTRY.</b></p>
-											<p><img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">&nbsp;&nbsp;Suggested Public notice in 1993 to Mumbai Custom Commissioner for implementation of Sub-contracting/job-work of 100% EOU in Feb - 1993 after follow up made available in 24 June 1993, <b>SAVED REVENUE LOSS OF 100% EOU UNITS</b>.</p>
-											<p><p><img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">&nbsp;&nbsp;
-											Suggested & made to implement of de-bonding on assessable value of 100% EOU/STPI capital goods in June 2010, FOB basis duty calculation/collection practice was going on depreciation. <b>SAVED REVENUE LOSE OF 100% EOU/STPI</b>.</p>
-
-									 <!-- 	<img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">
-												&nbsp;&nbsp;<b>"Foreign leasing"</b>, provision was not in the FTP, suggested & Made amendments in FTP in January 1997. Printed in FTP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1997-2002.
-										<p><img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">
-										
-											&nbsp;&nbsp;Suggested implementation of <b>Sub-contracting/job-work of 100% EOU in 1993.</b>
+                                        <div class="col-md-9 animate fadeInLeft">
+										<p>January, 97 leasing of Capital Goods from foreign leasing company" this provision was not available in the Export-Import Policy 1992-1997, the same was suggested by us for the 100&#37; EOU Scheme holder's, to the Ministry of Commerce as well as Ministry of Industry, Secretariat for Industrial Approval, New Delhi and now it is made available in the chapter IX Para 9.4 of <b>Export-Import Policy 1997-2002</b>.</p>
+											<p><b>Procedure of sub-contracting</b> was not available in Mumbai, Maharashtra, the same was suggested by us to the Indian Custom in February, 93 and the procedure is now available in Mumbai Maharashtra.
 											</p>
-											<p><img src="assets/img/theteam/tick.jpg" alt="image3" style="width: 20px; height: 17px">
-											&nbsp;&nbsp;Suggested & made implementation of <b>de-bonding on assessable value of 100% EOU/STPI capital goods</b>, FOB practice &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;was going on.. depreciation</b>
-											</p> -->
-
+											<p>
+											In Mumbai Customs wrong practice was adopted for depreciation, they were demanding duty on FOB basis which was higher than normal legal duty, whereas all over India has practice and circular duty should be demanded on assessable value, We changed their wrong practice & requested to D. G. on fax to guide them the correct law, <b>within twenty four hours Mumbai Commissioner</b> got instructions from them & we saved revenue loss of one of our client, but now it available for all other companies.
+											</p>
 											
 
 
                                             
                                         </div>
-                                        <div class="col-md-3 animate fadeIn" style="right: 40px;bottom:30px">
+                                        <div class="col-md-3 animate fadeIn" style="right: 40px;">
                                             <img src="assets/img/theteam/Achivements.jpg" alt="image3" style="width:
 											275px;height: 275px;">
 						
 										</div>
                                             
-                                        </div>
+                                        </div>-->
                                 </div>
                             </div>
                         </div>
@@ -287,7 +385,7 @@ Our Knowledge & experience has been helpful to all our clients, who are very muc
                             <ul class="list-unstyled list-inline pull-right">
                                 
                                 <li>
-                                    <a href="Disclaimer.html" target="_blank">Disclaimer</a>
+                                    <a href="#" target="_blank">Disclaimer</a>
                                 </li>
                             </ul>
                         </div>
